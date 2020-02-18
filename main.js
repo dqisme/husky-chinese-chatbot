@@ -13,10 +13,10 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadURL('https://console.dialogflow.com/api-client/demo/embedded/ad7e3869-10aa-43b1-b10e-d132a8bc7c75')
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
